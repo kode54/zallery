@@ -92,6 +92,15 @@ Cover image to use on the main gallery pages for opengraph and twitter embeds
 cover_image = "img/cover.webp"
 ```
 
+### Page Description
+
+To display the page description in the main body of the gallery set this to `false`
+
+```toml
+[extra]
+hide_description = true
+```
+
 ### Copyright and Powered by
 
 To hide the copyright set this to `true`

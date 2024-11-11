@@ -109,6 +109,14 @@ a {
     line-height: 1.1rem;
 }
 
+.description {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+    font-size: $description-font-size;
+    line-height: 2.0rem;
+}
+
 .page {
     display: flex;
     flex-direction: column;
