@@ -1,4 +1,7 @@
 <div class="credit">
+    {%- if page.extra.author and page.extra.author_url %}
+    <div class=copyright>&copy; {{ now() | date(format="%Y") }} <a href="{{ page.extra.author_url }}" rel="noopener">{{ page.extra.author }}</a></div>
+    {%- endif %}
     {%- if not page.extra.hide_copyright and not section.extra.hide_copyright and not config.extra.hide_copyright %}
     <div class=copyright>&copy; {{ now() | date(format="%Y") }} <a href="{{ config.extra.author_url }}" rel="noopener me">{{ config.author }}</a></div>
     {%- endif %}
